@@ -124,7 +124,7 @@ typedef uint8_t uint8;
 #if defined COMPILE_FOR_LONG_READS
     #define DEF_readSeqLengthMax 500000
 #else
-    #define DEF_readSeqLengthMax 650
+    #define DEF_readSeqLengthMax 50000
 #endif
 
 #if (DEF_readNameLengthMax > DEF_readSeqLengthMax)
